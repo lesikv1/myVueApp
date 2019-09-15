@@ -5,9 +5,6 @@
 # Install dependencies
 npm install or yarn
 
-# Serve on localhost:8080
-npm run serve
-
 # Build for production
 npm run build
 
