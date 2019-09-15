@@ -15,7 +15,7 @@ const router = express.Router();
 
 app.use(serveStatic(dirname + "/dist"));
 
-mongoose.connect("mongodb://sandbox:todo353044046@ds159634.mlab.com:59634/sanbox", { useNewUrlParser: true });
+mongoose.connect("mongodb://localhost:27017/usersdb", { useNewUrlParser: true });
 let db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 
